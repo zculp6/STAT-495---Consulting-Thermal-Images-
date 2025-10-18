@@ -2,6 +2,9 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Things to fix:
+# White is not fully removed; check rgb and GaussianBlur to fix
+
 # Function to find the cross-hairs that represent avg, max, and min temperatures
 def detect_plus_signs(img, size_range=(5, 30)):
     """
@@ -16,6 +19,7 @@ def detect_plus_signs(img, size_range=(5, 30)):
     # Red detection
     lower_red = np.array([0, 200, 200])  # Capture bright, saturated red
     upper_red = np.array([5, 255, 255])  # Narrow hue range to exclude orange tones
+    # Might need to go to 4 for upper_red if it doesn't work for certain images
 
     red_mask = cv2.inRange(hsv, lower_red, upper_red)
 
