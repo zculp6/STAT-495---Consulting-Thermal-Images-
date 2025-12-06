@@ -5,7 +5,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e29442d4-791b-45da-9597-9d919d0616e6" name="Changes" comment="Updated Code">
+      <change beforePath="$PROJECT_DIR$/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/.Rhistory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/STAT 495 - Consulting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/STAT 495 - Consulting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_asyncio.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_ctypes_test.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_elementtree.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_overlapped.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_queue.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_sqlite3.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testbuffer.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testcapi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testclinic.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testclinic_limited.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testconsole.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testimportmultiple.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testinternalcapi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testlimitedcapi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testmultiphase.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_testsinglephase.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_tkinter.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_uuid.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_wmi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/_zoneinfo.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/python3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/python313.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/tcl86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/tk86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/ttx.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/vcruntime140_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/winsound.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/Scripts/zlib1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv1/share/man/man1/ttx.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CH01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CH01_cleaned_thermal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CH01_snipped.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CH01_thermal_mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CH02.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CH02_cleaned_thermal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CH02_thermal_mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH01_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH01_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH01_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH01_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH02_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH02_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH02_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH02_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH02_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH02_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH03_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH03_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH03_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH03_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH03_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH03_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH04_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH04_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH04_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH04_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH04_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH04_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH05_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH05_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH05_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH05_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH05_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH05_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH06_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH06_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH06_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH06_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH06_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH06_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH07_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH07_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH07_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH07_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH07_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH07_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH08_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH08_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH08_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH08_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH08_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH08_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH09_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH09_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH09_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH09_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH10_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH10_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH10_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH10_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH10_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH10_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH12_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH12_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH12_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH12_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH12_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH12_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH13_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH13_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH13_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH13_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH13_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH13_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH14_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH14_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH14_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH14_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH14_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH14_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH15_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH15_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH15_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH15_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH15_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH15_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH16_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH16_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH16_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH16_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH16_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH16_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH17_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH17_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH17_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH17_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH17_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH17_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH18_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH18_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH18_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH18_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH18_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH18_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH19_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH19_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH19_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH19_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH20_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH20_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH20_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH20_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH20_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH20_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH21_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH21_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH21_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH21_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH22_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH22_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH22_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH22_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH22_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH22_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH23_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH23_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH23_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH23_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH24_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH24_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH24_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH24_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH24_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH24_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH25_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH25_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH25_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH25_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH25_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/CH25_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH10_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH10_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH10_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH10_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH10_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH10_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH11_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH11_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH11_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH11_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH11_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH11_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH1_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH1_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH1_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH1_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH1_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH1_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH2_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH2_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH2_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH2_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH2_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH2_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH3_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH3_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH3_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH3_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH3_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH3_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH4_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH4_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH4_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH4_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH5_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH5_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH5_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH5_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH5_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH5_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH6_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH6_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH6_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH6_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH6_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH6_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH7_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH7_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH7_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH7_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH8_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH8_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH8_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH8_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH8_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH8_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH9_analysis.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH9_analysis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH9_cleaned.png" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH9_cleaned.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH9_coordinates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Cuneo_Hall_cleaned/RCH9_coordinates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thermal Images.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thermal Images.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +198,11 @@
   &quot;keyToString&quot;: {
     &quot;Python.Red_mask.executor&quot;: &quot;Run&quot;,
     &quot;Python.Thermal Images.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tournament_simulations.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Desktop/STAT 495 - Consulting&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/OneDrive/Desktop/Big Data Bowl 2026&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>

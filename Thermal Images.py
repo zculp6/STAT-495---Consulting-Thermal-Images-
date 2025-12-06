@@ -5,6 +5,16 @@ import pandas as pd
 import os
 from pathlib import Path
 
+# ================================================================
+# USER INPUT (EDIT ONLY THIS SECTION)
+# ================================================================
+
+# Example Input
+INPUT_FOLDER = "Cuneo_Hall"
+OUTPUT_FOLDER = "Cuneo_Hall_cleaned"
+VISUALIZE = True
+
+# After inputting the results, run the code and check your folder for results
 
 # ================================================================
 # Detect crosshair coordinates (RED and CYAN/GREEN)
@@ -72,7 +82,7 @@ def detect_plus_signs(img, size_range=(5, 30)):
     red_mask = cv2.bitwise_or(red_mask1, red_mask2)
 
     # Cyan/green detection
-    cyan_mask = cv2.inRange(hsv, np.array([80, 157, 20]), np.array([100, 255, 255]))
+    cyan_mask = cv2.inRange(hsv, np.array([80, 120, 20]), np.array([100, 255, 255]))
     lower_green_wide = np.array([40, 50, 50])
     upper_green_wide = np.array([90, 255, 255])
     green_mask = cv2.inRange(hsv, lower_green_wide, upper_green_wide)
@@ -100,7 +110,7 @@ def detect_plus_signs(img, size_range=(5, 30)):
             if 0.1 < aspect_ratio < 2.0:
                 cv2.drawContours(final_mask, [cnt], -1, 255, -1)
 
-    return cv2.dilate(final_mask, np.ones((5, 5), np.uint8), iterations=1)
+    return cv2.dilate(final_mask, np.ones((3, 3), np.uint8), iterations=1)
 
 
 def choose_single_red_point(img, red_points):
@@ -115,17 +125,16 @@ def choose_single_red_point(img, red_points):
 
     # Use improved red mask (wider range)
     # First range (0 degrees):
-    lower_red1 = np.array([0, 50, 50])
-    upper_red1 = np.array([10, 255, 255])
-    mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
+    lower_red1 = np.array([0, 215, 80])
+    upper_red1 = np.array([6, 255, 255])
+    red_mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
 
-    # Second range (180 degrees):
-    lower_red2 = np.array([170, 50, 50])
+    lower_red2 = np.array([174, 215, 80])
     upper_red2 = np.array([180, 255, 255])
-    mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
+    red_mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
 
     # Combine the two masks
-    red_mask = cv2.bitwise_or(mask1, mask2)
+    red_mask = cv2.bitwise_or(red_mask1, red_mask2)
 
     contours, _ = cv2.findContours(red_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
@@ -233,16 +242,19 @@ def process_single_image(input_path, output_dir, visualize=False):
     # 4. Choose the single correct red crosshair from the filtered list
     red_single = choose_single_red_point(img, red_points_filtered)
 
-    # 5. Save coordinates to CSV
+    # 5. Choose single value for cyan crosshair assuming points are clustered
+    cyan_points_filtered = cyan_points_filtered[0] if len(cyan_points_filtered) > 0 else None
+
+    # 6. Save coordinates to CSV
     coord_rows = []
 
-    # Add SINGLE red point
+    # Add red point
     if red_single is not None:
         coord_rows.append({"Color": "Red", "X": red_single[0], "Y": red_single[1]})
 
-    # Add ALL cyan points
-    for (x, y) in cyan_points_filtered:
-        coord_rows.append({"Color": "Cyan", "X": x, "Y": y})
+    # Add cyan point
+    if cyan_points_filtered is not None:
+        coord_rows.append({"Color": "Cyan", "X": cyan_points_filtered[0], "Y": cyan_points_filtered[1]})
 
     for (x, y) in green_points_filtered:
         coord_rows.append({"Color": "Green", "X": x, "Y": y})
@@ -270,7 +282,7 @@ def process_single_image(input_path, output_dir, visualize=False):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray_blur = cv2.GaussianBlur(gray, (3, 3), 0)
     edges = cv2.Canny(gray_blur, 30, 120)
-    edges_dilated = cv2.dilate(edges, np.ones((4, 4), np.uint8), iterations=1)
+    edges_dilated = cv2.dilate(edges, np.ones((3, 3), np.uint8), iterations=1)
 
     near_text = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=1)
     edges_near_text = cv2.bitwise_and(edges_dilated, near_text)
@@ -366,10 +378,10 @@ def process_single_image(input_path, output_dir, visualize=False):
                                bbox=dict(boxstyle='round', facecolor='red', alpha=0.7))
 
             # Plot CYAN points
-            for (x, y) in cyan_points:
-                axs[0, 0].plot(x, y, 'o', color='cyan',
+            if cyan_points_filtered is not None:
+                axs[0, 0].plot(cyan_points_filtered[0], cyan_points_filtered[1], 'o', color='cyan',
                                markersize=12, markeredgecolor='white', markeredgewidth=2)
-                axs[0, 0].text(x, y - 15, f"({x},{y})",
+                axs[0, 0].text(cyan_points_filtered[0], cyan_points_filtered[1] - 15, f"({cyan_points_filtered[0]},{cyan_points_filtered[1]})",
                                color='white', fontsize=8, ha='center',
                                bbox=dict(boxstyle='round', facecolor='cyan', alpha=0.7))
 
@@ -396,6 +408,7 @@ def process_single_image(input_path, output_dir, visualize=False):
         axs[1, 0].set_title("Cross-Hair Detection")
         axs[1, 0].axis('off')
 
+        location_mask = cv2.bitwise_or(location_mask, location_mask_custom_region)
         axs[1, 1].imshow(location_mask, cmap='gray')
         axs[1, 1].set_title("Location-based UI Removal")
         axs[1, 1].axis('off')
@@ -466,10 +479,8 @@ def process_folder(input_folder="Cuneo_Hall", output_folder="Cuneo_Hall_cleaned"
 # MAIN EXECUTION
 # ================================================================
 if __name__ == "__main__":
-    # Process all images in Cuneo_Hall folder
-    # Set visualize=True to generate analysis plots for each image
     process_folder(
-        input_folder="Cuneo_Hall",
-        output_folder="Cuneo_Hall_cleaned",
-        visualize=True  # Set to True if you want visualization plots
+        input_folder=INPUT_FOLDER,
+        output_folder=OUTPUT_FOLDER,
+        visualize=VISUALIZE
     )
