@@ -36,6 +36,9 @@ An automated pipeline for detecting crosshair markers (red, cyan, and green) and
 
 [Contact](#contact)
 
+| Before | After |
+|--------|-------|
+| ![](Cuneo_Hall/CH01.jpeg) | ![](Cuneo_Hall_cleaned/CH01_cleaned.png) |
 
 
 ## Features
